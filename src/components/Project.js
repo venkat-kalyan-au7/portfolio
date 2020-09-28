@@ -10,7 +10,7 @@ const Project = (props) => {
                 <div className="desc col-md-8 col-12">
                     <h3 className="title"><a href= {link} target="_blank" rel="noopener noreferrer">{title} </a><span className="small place"> - { client }</span></h3>
                     <p className="mb-2">{description}</p>
-                    <p><a className="more-link" href={link} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>Read more</a></p>
+                    <p><a className="more-link" href={link} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>VIEW</a></p>
                 </div>
             </div>
         );
