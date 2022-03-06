@@ -1,30 +1,12 @@
 import project1 from "../assets/Screenshot (56).png";
 import project2 from "../assets/Screenshot (57).png";
 import project3 from "../assets/Screenshot (64).png";
-import project4 from "../assets/Screenshot (63).png";
-import project5 from "../assets/Screenshot (61).png"
-import project6 from "../assets/Screenshot (62).png"
+
 
 const PROJECTS = [
   
-    {
-    id: 1,
-    title: "News Blog(MERN)",
-    functionalArea: "Blog",
-    technologyUsed: "NodeJS,ReactJS,ExpressJS,JWT,ReduxJS,MongoDB",
-    description: "News Blog is Developed Using MERN STACK it has features of writing news blog with image upload feature and it has a user registration and login as well,every loggedIn user can comment and like on news",
-    image: project5,
-    link: "https://cms-blog-kalyan.herokuapp.com/"
-},
-{
-    id: 2,
-    title: "EatFit(MERN)",
-    functionalArea: "Productivity",
-    technologyUsed: "NodeJS,ReactJS,ExpressJS,JWT,Nodemailer,MongoDB,Bootstrap",
-    description: "Eat Fit is a web application which keeps track of your calories consumed for every meal with time and date,It has features of account activation and password reset",
-    image: project6,
-    link: "https://eatfit-kalyan.herokuapp.com/"
-},
+    
+
    
     {
         id: 3,
@@ -36,16 +18,7 @@ const PROJECTS = [
         image: project3,
         link: "https://e-meds.herokuapp.com/"
     },
-    {
-        id: 4,
-        title: "TBS(NodeJS)",
-       
-        functionalArea: "Booking Systems",
-        technologyUsed: "Nodejs, ExpressJS, ES6 javascript,Mongo Atlas",
-        description: "Train Ticket Booking application were we can book tickets search trains between two stations,as there is no fron-end developed for this,I developed Backend part of this application only",
-        image: project4,
-        link: "https://github.com/attainu/Robin-Railway-Booking-System/tree/dev"
-    },
+   
     {
         id: 5,
         title: "Best Buy(Learning Project)",

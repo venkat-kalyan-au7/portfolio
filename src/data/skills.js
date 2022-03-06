@@ -1,21 +1,27 @@
 const SKILLS = [
     {
         id: 1,
-        name: "Web Development",
+        name: "Backend Development",
         rating: "100%",
-        description: "React, Nodejs, ExpressJs, ReduxJs, Rest API, HTML5, CSS, Bootstrap, JQuery, JSON "
+        description: "NodeJs, ExpressJs, AWS (Lambdas),  Rest API,"
+    },
+    {
+        id: 5,
+        name: "Frontend Development",
+        rating: "100%",
+        description: "ReactJs,  ReduxJs, ExtJs,  Bootstrap , HTML, CSS "
     },
     {
         id: 2,
-        name: "Programming Languages",
+        name: "Database",
         rating: "100%",
-        description: "JavaScript, Python"
+        description: "PostgreSQL, MongoDB, Airtable"
     },
     {
         id: 3,
-        name: "Database",
+        name: "Programming Languages",
         rating: "100%",
-        description: "PostgreSQL, MongoDB"
+        description: "JavaScript, Python"
     },
    
     {
