@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./project.css"; // Import a separate CSS file for styling
 
 const Project = (props) => {
     const { title, client, description, image, link, technologyUsed, functionalArea } = props.project;
     const technologies = technologyUsed.split(',').map(tech => tech.trim());
+    const [showFullDescription, setShowFullDescription] = useState(false);
+
+    const truncatedDescription = description.substring(0, 100); // Adjust the character limit
+
+    const toggleDescription = () => {
+        setShowFullDescription(!showFullDescription);
+    };
 
     return (
         <div className="item row project-container">
@@ -16,7 +23,19 @@ const Project = (props) => {
                     <span className="small place"> - {client}</span>
                 </h3>
                 {functionalArea && <p className="mb-2"><strong>Functional Area:</strong> {functionalArea}</p>}
-                <p className="mb-2">{description}</p>
+                <p className="mb-2">
+                    {showFullDescription ? description : truncatedDescription}
+                    {!showFullDescription && (
+                        <span className="read-more" onClick={toggleDescription}>
+                            ...<a href="#readmore">Read more</a>
+                        </span>
+                    )}
+                    {showFullDescription && (
+                        <span className="read-more" onClick={toggleDescription}>
+                            <a href="#readless">Read less</a>
+                        </span>
+                    )}
+                </p>
                 <div className="technologies">
                     <strong>Stack of Technologies used: </strong>
                     {technologies.map((tech, index) => (

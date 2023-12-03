@@ -22,7 +22,7 @@ class App extends Component {
         <button onClick={this.toggleButton}>{this.state.showProfile ? <span>Hide Profile</span> : <span>Show Profile</span>}</button> */}
         <Header />
         <BodyContents />
-        <Footer />
+    
         {/* <Projects /> */}
       </div>
     )

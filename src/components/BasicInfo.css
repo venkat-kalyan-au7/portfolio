@@ -1,0 +1,44 @@
+/* BasicInfo.css */
+.basic-info .section-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.basic-info .heading {
+    color: #333;
+}
+
+.basic-info .content {
+    margin-top: 20px;
+}
+
+.basic-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+.basic-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.basic-info .icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #3498db;
+}
+
+.basic-info .label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.basic-info .value a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.basic-info .value a:hover {
+    text-decoration: underline;
+}

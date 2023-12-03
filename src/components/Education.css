@@ -1,0 +1,46 @@
+/* Education.css */
+.education .section-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education .heading {
+    color: #333;
+}
+
+.education .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.education .item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.education .icon {
+    margin-right: 20px;
+    font-size: 24px;
+    color: #3498db;
+}
+
+.education .details {
+    flex: 1;
+}
+
+.education .title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.education .university {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.education .year {
+    color: #777;
+}
+
+/* Add more styles as needed */
