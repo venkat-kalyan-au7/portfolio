@@ -1,5 +1,6 @@
 import React from "react";
-import "./project.css"; 
+import "./project.css"; // Import a separate CSS file for styling
+
 const Project = (props) => {
     const { title, client, description, image, link, technologyUsed, functionalArea } = props.project;
     const technologies = technologyUsed.split(',').map(tech => tech.trim());
@@ -9,7 +10,7 @@ const Project = (props) => {
             <a className="col-md-4 col-12" href={link} target="_blank" rel="noopener noreferrer">
                 <img className="img-fluid project-image" src={image} alt={title} />
             </a>
-            <div className="desc col-md-8 col-12">
+            <div className="desc col-md-8 col-12 project-details">
                 <h3 className="title">
                     <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
                     <span className="small place"> - {client}</span>
