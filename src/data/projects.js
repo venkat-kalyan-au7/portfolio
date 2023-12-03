@@ -8,16 +8,8 @@ const PROJECTS = [
     
 
    
-    {
-        id: 3,
-        title: "E-Pharmacy(MERN)",
-       
-        functionalArea: "E-COM",
-        technologyUsed: "Nodejs, ExpressJS, ES6 javascript,React,Mongo Atlas, Bootstrap",
-        description: "E-pharamacy is a full stack web application which serves in medicine supply field,with payment integration and admin panel",
-        image: project3,
-        link: "https://e-meds.herokuapp.com/"
-    },
+   
+    
    
     {
         id: 5,

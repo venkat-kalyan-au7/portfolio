@@ -7,7 +7,7 @@ class Projects extends Component {
         return(
                 <section className="latest section">
                     <div className="section-inner">
-                        <h2 className="heading">Current Project </h2>
+                        <h2 className="heading">Recent Projects </h2>
                         <div className="content">
                         {
                             PROJECTS.map(project => {

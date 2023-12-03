@@ -1,0 +1,19 @@
+/* Project.css */
+.project-container {
+    border: 2px solid #ddd; /* Example border */
+    border-radius: 8px; /* Example border-radius */
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.badge-advanced {
+    background-color: #6db56d; /* Example color */
+    color: #fff; /* Example text color */
+}
+
+.view-more {
+    margin-top: 12px;
+}
+
+/* Add more styles as needed */
